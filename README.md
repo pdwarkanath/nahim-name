@@ -16,9 +16,9 @@ access_token = "xxxx"
 access_secret = "xxXXX
 ```
 
-## Constants
+## Misc
 
-Every Twitter user has a unique ID that remains constant even after username changes. Use this https://tweeterid.com/ to find ID for any username.
+Every Twitter user has a unique ID that remains constant even after username changes. Use this https://tweeterid.com/ to find ID for any username. This is used to extract information about a user from Twitter using the Twitter API (such as screen name in this case)
 
 The script is scheduled to run every 15 minutes using Windows Task Scheduler.
 
